@@ -352,7 +352,7 @@ function Productpage() {
                   type="text"
                   placeholder="ابحث عن الباقات..."
                   value={searchTerm}
-
+                  style={{direction :'rtl'}}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="w-full text-right"
                   onClick={() => {
